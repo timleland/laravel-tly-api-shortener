@@ -1,0 +1,42 @@
+{
+	"name": "tly/laravel-url-shortener-api",
+	"description": "A Laravel package for the T.LY URL Shortener API",
+	"type": "library",
+	"keywords": [
+		"laravel",
+		"url shortener",
+		"link shortener",
+		"url shortener api",
+		"link shortener api",
+		"t.ly"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tim Leland",
+			"email": "tim@t.ly"
+		}
+	],
+	"require": {
+		"php": "^8.0",
+		"illuminate/support": "^9.0|^10.0",
+		"guzzlehttp/guzzle": "^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TLY\\LaravelUrlShortener\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"TLY\\LaravelUrlShortener\\TLYServiceProvider"
+			],
+			"aliases": {
+				"TLYApi": "TLY\\LaravelUrlShortener\\Facades\\TLYApi"
+			}
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
