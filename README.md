@@ -1,6 +1,6 @@
 # T.LY Laravel URL Shortener API
 
-This package provides a convenient Laravel wrapper for the T.LY URL Shortener API.
+This package provides a convenient Laravel wrapper for the [T.LY URL Shortener](https://t.ly/) API.
 
 T.LY URL Shortener API documentation to create URLs to track, brand, and share short links. This package aims to help you to work with our API. Please see our [API Docs](https://t.ly/docs) if you have any issues.
 
